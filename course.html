@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Courses</title>
+  <link rel="stylesheet" href="course.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Courses</h1>
+  </header>
+
+  <div class="course-container">
+
+    <!-- Video Player -->
+    <div class="video-section">
+      <video id="videoPlayer" width="100%" controls>
+        <source src="videos/html_intro.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <!-- Video Navigation -->
+    <div class="video-nav">
+      <button onclick="changeVideo('videos/html_intro.mp4', 'Introduction to HTML', 'Learn the basics of HTML, structure of a webpage, and tags.')">HTML Intro</button>
+      <button onclick="changeVideo('videos/html_css.mp4', 'HTML + CSS', 'Learn how to style your HTML using CSS for layout and design.')">HTML & CSS</button>
+      <button onclick="changeVideo('videos/html_js.mp4', 'HTML + JS', 'Learn how to make your webpage interactive using JavaScript.')">HTML & JavaScript</button>
+    </div>
+
+    <!-- Video Information -->
+    <div class="video-info">
+      <h2 id="videoTitle">Introduction to HTML</h2>
+      <p id="videoDescription">Learn the basics of HTML, structure of a webpage, and tags.</p>
+    </div>
+
+  </div>
+
+  <script src="java.js"></script>
+
+</body>
+</html>
+

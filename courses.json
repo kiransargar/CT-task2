@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Basics",
+    "video": "https://www.youtube.com/embed/qz0aGYrrlhU"
+  },
+  {
+    "id": 2,
+    "title": "CSS Basics",
+    "video": "https://www.youtube.com/embed/yfoY53QXEnI"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Basics",
+    "video": "https://www.youtube.com/embed/W6NZfCO5SIk"
+  }
+]

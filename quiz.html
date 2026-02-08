@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <div class="card quiz">
+    <h2>HTML Quiz</h2>
+
+    <!-- Question 1 -->
+    <div class="question">
+      <p>1. HTML stands for?</p>
+      <button onclick="answer(this, true)">Hyper Text Markup Language</button>
+      <button onclick="answer(this, false)">High Text Machine Language</button>
+      <button onclick="answer(this, false)">Hyperlinks Text Mark Language</button>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <p>2. Which tag is used for the largest heading?</p>
+      <button onclick="answer(this, true)">&lt;h1&gt;</button>
+      <button onclick="answer(this, false)">&lt;h6&gt;</button>
+      <button onclick="answer(this, false)">&lt;head&gt;</button>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <p>3. Which tag is used to create a link?</p>
+      <button onclick="answer(this, true)">&lt;a&gt;</button>
+      <button onclick="answer(this, false)">&lt;link&gt;</button>
+      <button onclick="answer(this, false)">&lt;href&gt;</button>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <p>4. Which tag is used to insert an image?</p>
+      <button onclick="answer(this, true)">&lt;img&gt;</button>
+      <button onclick="answer(this, false)">&lt;image&gt;</button>
+      <button onclick="answer(this, false)">&lt;pic&gt;</button>
+    </div>
+
+    <button class="submit" onclick="showResult()">Submit Quiz</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>
+

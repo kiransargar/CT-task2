@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #1e3c72;
+}
+
+.course-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.video-section {
+  margin-bottom: 20px;
+}
+
+.video-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.video-nav button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #2a5298;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.video-nav button:hover {
+  background: #1e3c72;
+}
+
+.video-info h2 {
+  color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+.video-info p {
+  font-size: 16px;
+  color: #333;
+}
